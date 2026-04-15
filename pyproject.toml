@@ -1,0 +1,13 @@
+[project]
+name = "fullstack-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain_nvidia_ai_endpoints",
+    "langchain-core",
+    "langgraph",
+    "asyncio>=4.0.0",
+    "aiofiles>=25.1.0",
+]
